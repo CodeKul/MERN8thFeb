@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        /* property:value */
+        h1{
+            font-size: 40px;
+        }
+        #heading{
+            color:red;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 id="heading">Technologies</h1>
+    <h1>Another H1</h1>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos debitis modi temporibus tempore voluptate inventore, nobis repudiandae voluptatem cum animi culpa veritatis labore sunt dolorem ad provident eligendi, earum architecto.</p>
+    <button class= "btn btn-danger" onclick="display()">Save</button>
+    <script>
+        function display(){
+            document.getElementById("para").innerHTML="Hello World"
+        }
+        
+    </script>
+</body>
+</html>
