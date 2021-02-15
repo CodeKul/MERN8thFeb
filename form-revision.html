@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <h2>Hello World</h2>
+    <a href="form.html">Click</a>
+    <img src="chipotle.jpg">
+    <!-- Employee Name,Salary,Date of Joining,city -->
+    <form>
+        <label>Employee Name</label>
+        <input type="text" placeholder="Enter name">
+        <br><br>
+        
+        <label for="salary">Salary</label>
+        <input type="number">
+        <br><br>
+
+        <label for="DOJ">Date of Joining</label>
+        <input type="date">
+        <br><br>
+
+        <label for="gender">Gender</label>
+        <input type="radio" name="selectGender">
+        <label>Male</label>
+        <input type="radio" name="selectGender">
+        <label>Female</label>
+        <br><br>
+
+        <label for="languages">Languages</label>
+        <input type="checkbox">
+        <label>C</label>
+        <input type="checkbox">
+        <label>C++</label>
+        <input type="checkbox">
+        <label>HTML</label>
+        <input type="checkbox">
+        <label>Javascript</label><br><br>
+
+        <select>
+            <option>Pune</option>
+            <option>Thane</option>
+            <option>Pune</option>
+        </select>
+
+        <select>
+            <optgroup label="Maharashtra">
+            <option>Pune</option>
+            <option>Thane</option>
+            <option>Pune</option>
+            </optgroup>
+            <optgroup label="Gujrat">
+                <option>Surat</option>
+                <option>Baroda</option>
+                <option>Pune</option>
+                </optgroup>
+        </select>
+        <input type="text" list="cities">
+        <datalist id="cities">
+            <option>Pune</option>
+            <option>Nasik</option>
+            <option>Nagpur</option>
+        </datalist>
+
+
+    </form>
+</body>
+</html>
