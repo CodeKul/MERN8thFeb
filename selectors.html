@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Basic selectors - class ,id,attribute,element */
+        #main-heading{
+            text-align: center;
+            color:crimson;
+        }
+        .content-heading{
+            text-align: center;
+            color:darkolivegreen;
+        }
+        h2#sub-heading{
+            color:darkorange;
+        }
+        [id ^="main"]{
+            border:1px solid black;
+        }
+        [id $="ing"]{
+            border:4px dashed yellowgreen;
+        }
+        [id ~="heading"]{
+            border:4px dashed green;
+        }
+
+        a:link{
+            color:red;
+        }
+        a:visited{
+            color:yellowgreen;
+        }
+        a:hover{
+            color:teal;
+        }
+
+        a:active{
+            color:brown;
+        }
+
+        section{
+            background: whitesmoke;
+        }
+
+        i,p{
+            font-size: 20px;
+            color:#333;
+        }
+
+        .article-content > article > h2{
+            background-color:burlywood;
+        }
+
+        .article-content >article> h2 + i{
+            font-weight: bold;
+        }
+
+        .article-content >article> h2 ~ i{
+            font-weight: bold;
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="main-heading">My Blog</h1>
+     </header>
+ 
+     <main class="container">
+         <h1 class="content-heading">Blog Articles</h1>
+         <h2 id="sub-heading">Article</h2>
+         <h3 id="main-sub">Subject</h3>
+         <section class="article-content">
+
+             <article>
+                 <h2>How to use article tag</h2>
+                 <h2>How to use article tag</h2>
+                 
+                 <i>Wednesday,17th Feb 2021</i>
+                
+                 <p>
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam impedit nam labore hic sed non, assumenda facere accusantium doloremque aliquam eum. Veniam eaque maiores laudantium quisquam corrupti temporibus quibusdam praesentium?
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita facilis aspernatur libero! Porro odit commodi, placeat deleniti facilis laudantium ipsa, consequuntur libero sequi minus recusandae quod quaerat omnis, dolor 
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, expedita ullam! Ad, molestiae corporis? Soluta minus excepturi dolore, sapiente, repellat necessitatibus assumenda odio, aspernatur ratione itaque reiciendis debitis enim pariatur!
+                 </p>
+                 <p>
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam impedit nam labore hic sed non, assumenda facere accusantium doloremque aliquam eum. Veniam eaque maiores laudantium quisquam corrupti temporibus quibusdam praesentium?
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita facilis aspernatur libero! Porro odit commodi, placeat deleniti facilis laudantium ipsa, consequuntur libero sequi minus recusandae quod quaerat omnis, dolor 
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, expedita ullam! Ad, molestiae corporis? Soluta minus excepturi dolore, sapiente, repellat necessitatibus assumenda odio, aspernatur ratione itaque reiciendis debitis enim pariatur!
+                 </p>
+                 <i>Wednesday</i>
+                 <p>
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam impedit nam labore hic sed non, assumenda facere accusantium doloremque aliquam eum. Veniam eaque maiores laudantium quisquam corrupti temporibus quibusdam praesentium?
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita facilis aspernatur libero! Porro odit commodi, placeat deleniti facilis laudantium ipsa, consequuntur libero sequi minus recusandae quod quaerat omnis, dolor 
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, expedita ullam! Ad, molestiae corporis? Soluta minus excepturi dolore, sapiente, repellat necessitatibus assumenda odio, aspernatur ratione itaque reiciendis debitis enim pariatur!
+                 </p>
+                 <p>
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam impedit nam labore hic sed non, assumenda facere accusantium doloremque aliquam eum. Veniam eaque maiores laudantium quisquam corrupti temporibus quibusdam praesentium?
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita facilis aspernatur libero! Porro odit commodi, placeat deleniti facilis laudantium ipsa, consequuntur libero sequi minus recusandae quod quaerat omnis, dolor 
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, expedita ullam! Ad, molestiae corporis? Soluta minus excepturi dolore, sapiente, repellat necessitatibus assumenda odio, aspernatur ratione itaque reiciendis debitis enim pariatur!
+                 </p>
+             </article>
+         </section>
+         <section class="aside-content">
+             <article>
+
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi libero porro, nesciunt delectus quae atque tempora inventore, cupiditate deserunt ducimus esse. Vitae libero minus nemo, dolor eius vel sint.</p>
+                 <h2>Related Articles</h2>
+                 <ul>
+                    <li><a href="page.html" target="_blank">How to use aside tag</a></li>
+                     <li>How to use target attribute</li>
+                     <li>How to use aside tag</li>
+                     <li>How to use target attribute</li>
+                     <li>How to use aside tag</li>
+                     <li>How to use target attribute</li>
+                 </ul>
+             </article>
+        </section>
+</body>
+</html>
