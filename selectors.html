@@ -63,10 +63,68 @@
             font-weight: bold;
         }
 
+        /*Pseudo classes -  :first-child ,:last-child,:only-child,:first-of-type
+        :last-of-type,nth-last-child,nth-child, */
+        /* Pseudo elements - ::before ,::after,::first-letter,
+        ::first-line,::selection */
 
+        /* article span:first-child{
+            border: 2px solid black;
+            border-radius: 5px;
+        } */
 
+        article p:first-of-type{
+            border: 2px solid black;
+            border-radius: 5px;
+        }
 
+        article ul li:last-child{
+            border: 2px solid blueviolet;
+            border-radius: 5px;
+        }
 
+        /* h3 span:only-child{
+           background-color: blueviolet;
+        } */
+
+        article ul li:last-of-type{
+            background-color: red;
+        }
+
+        article:nth-child(2){
+            background-color:olive;
+        }
+
+        article ul li:nth-last-child(3){
+            background-color:palegreen;
+        }
+        
+        /* Pseudo-elements */
+       article p::first-letter{
+           font-size: 40px;
+       }
+
+       article p::first-line{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 500;
+       }
+
+       .article-content article:nth-child(2) p::selection{
+           background-color: black;
+           color:white;
+       }
+       article ul li{
+        list-style: none;
+       }
+
+        article ul li::before{
+            content:url("bullet.PNG");
+            
+        }
+
+        article ul li::after{
+            content :"=>"
+        }
 
     </style>
 </head>
@@ -78,9 +136,12 @@
      <main class="container">
          <h1 class="content-heading">Blog Articles</h1>
          <h2 id="sub-heading">Article</h2>
-         <h3 id="main-sub">Subject</h3>
+         <h3 id="main-sub"><span>Subject</span></h3>
          <section class="article-content">
-
+            <article>
+                <h2>How to use article tag</h2>
+                 <h2>How to use article tag</h2>
+            </article>
              <article>
                  <h2>How to use article tag</h2>
                  <h2>How to use article tag</h2>
@@ -112,7 +173,12 @@
          </section>
          <section class="aside-content">
              <article>
-
+                <span>Hello Lorem ipsum dolor sit amet.
+                    Hello Lorem ipsum dolor sit amet.
+                    Hello Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum architecto temporibus similique molestiae dolores iure voluptatum nulla dignissimos asperiores corporis quaerat at ipsam animi culpa quis minima, commodi vel omnis.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi explicabo mollitia ab quas cumque, libero quam enim, nulla recusandae ipsam totam suscipit, impedit minima repudiandae aut eaque quia nesciunt vel?
+                </span>
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi libero porro, nesciunt delectus quae atque tempora inventore, cupiditate deserunt ducimus esse. Vitae libero minus nemo, dolor eius vel sint.</p>
                  <h2>Related Articles</h2>
                  <ul>
