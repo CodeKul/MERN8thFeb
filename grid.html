@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display: grid;
+            /* grid-template-columns:200px 100px 300px; */
+            /* grid-template-columns:repeat(5,200px); */
+            grid-template-columns:1fr 2fr 4fr;
+            grid-template-rows: 2fr 1fr 4fr;
+            grid-row-gap:10px;
+            grid-column-gap:5px;
+        }
+        .item{
+            
+            background-color: brown;
+        }
+
+        .item-1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+        .item-2{
+            grid-row-start: 2;
+            grid-row-end:5; 
+        }
+    </style>
+</head>
+<body>
+    <section class="grid-container">
+        <div class="item item-1">inside grid item 1</div>
+        <div class="item item-2">inside grid item 2</div>
+        <div class="item item-3">inside grid item 3</div>
+        <div class="item item-4">inside grid item 4</div>
+        <div class="item item-5">inside grid item 5</div>
+        <div class="item item-6">inside grid item 6</div>
+        <div class="item item-7">inside grid item 7</div>
+        <div class="item item-8">inside grid item 8</div>
+        <div class="item item-9">inside grid item 9</div>
+        <div class="item item-10">inside grid item 10</div>
+        
+    </section>
+</body>
+</html>
