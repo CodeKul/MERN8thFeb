@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height:200px;
+            background-color: darkolivegreen;
+            margin:100px;
+           
+        }
+
+       
+        .box1:hover{
+            transform: translate(200px,200px);
+            /* transform:scale(2); */
+            /* transform:rotateY(180deg); */
+            /* transform:skewX(80deg); */
+            
+            /* transition-property: transform;
+            transition-duration: 3s;
+            transition-delay:3s;
+            transition-timing-function:ease-in; */
+
+            transition:transform 2s 3s ease-in;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!--transform 
+    rotate,translate,skew,scale
+
+transition
+transition-property,
+transition-duration
+transition-timing function,
+transition-delay
+-->
+
+<div class="container">
+    <div class="box box1">
+        Box1
+    </div>
+    <!-- <div class="box box2">
+        Box2
+    </div>
+    <div class="box box3">
+        Box3
+    </div> -->
+
+</div>
+</body>
+</html>
