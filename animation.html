@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* animation-name,animation-duration,
+        animation-delay,animation-timing-function,
+        animation-iteration-count ,animation-direction
+        animation-fill-mode
+        animation-play-state*/
+        
+        body{
+            background-color: black;
+        }
+        .text-animation h2{
+            text-align:center;
+            font-size:40px;
+            font-weight:bold;
+            color:cornflowerblue;
+            animation-name:movingText;
+            animation-timing-function: linear;
+            animation-duration:4s;
+            animation-play-state:running;
+            animation-delay:3s;
+            animation-direction: reverse;
+            
+        }
+
+        .text-animation h2:hover{
+            animation-play-state: paused;
+        }
+
+        @keyframes movingText{
+            /* from{color:cornflowerblue }
+            to{color:red} */
+
+            0%{
+                transform:scale(0.5);
+                
+            }
+            25%{
+                transform: scale(1);
+                
+            }
+            50%{
+                transform:scale(1.5);
+                
+            }
+            75%{
+                transform:scale(1);
+               
+            }
+            100%{
+                transform: scale(0.5);
+                
+            }
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="text-animation">
+        <h2>Welcome!!!</h2>
+    </div>
+</body>
+</html>
