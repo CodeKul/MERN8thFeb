@@ -42,11 +42,24 @@
         .colsecond-3{
             width:22%;
         }
+
+        @media (max-width:425px){
+            .firstrow{
+                flex-direction: column;
+            }
+
+            .col1,.col2,.col3,.colsecond-3,.colsecond{
+                width:100%;
+            }
+        }
+        .orange{
+            color:orange;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Let's learn flexbox in more detail</h1>
+        <h1>Let's learn<span class="orange"> flexbox in more</span> detail</h1>
         <img src="blog-writing.jpg" alt="">
         <div class="firstrow">
             <div class="col1">

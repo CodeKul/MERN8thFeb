@@ -10,20 +10,38 @@
         body{
             
             background-image:url("blog-writing.jpg") ;
-            background-repeat: repeat-y;
+            
             background-attachment:fixed;
-           
+            
             
         }
 
         img{
             opacity:0.4;
         }
+        .clip{
+            width: 300px;
+            background-image:url('flex.png') ;
+            border:5px dashed white;
+            padding:10px;
+            background-repeat: no-repeat;
+            /* background-clip:border-box; */
+            background-origin:content-box;
+            background-position: right bottom;
+            background-size:contain;
+        }
+        
         
     </style>
 </head>
 <body>
     <!-- <img src="blog-writing.jpg"> -->
+    <div class="clip">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, nesciunt?</p>
+
+    </div>
+
+
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos doloremque quis provident. Quam maxime sequi repellat. Quisquam eos ducimus, blanditiis suscipit placeat tempore consectetur neque rerum eius eum inventore recusandae!</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos doloremque quis provident. Quam maxime sequi repellat. Quisquam eos ducimus, blanditiis suscipit placeat tempore consectetur neque rerum eius eum inventore recusandae!</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos doloremque quis provident. Quam maxime sequi repellat. Quisquam eos ducimus, blanditiis suscipit placeat tempore consectetur neque rerum eius eum inventore recusandae!</p>
