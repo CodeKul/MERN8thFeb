@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615535738909</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="javascript">
+      <created>1615795554280</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1615795554280</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,32 +191,37 @@
     <MESSAGE value="animation" />
     <MESSAGE value="flipcard" />
     <MESSAGE value="mediaQuery" />
-    <option name="LAST_COMMIT_MESSAGE" value="mediaQuery" />
+    <MESSAGE value="javascript" />
+    <option name="LAST_COMMIT_MESSAGE" value="javascript" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1615535737689">
+    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1615795552743">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1615535737689" />
-    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1615551858619">
+    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1615795552743" />
+    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1615803887204">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1615551858619" />
+    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1615803887204" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1612857919799">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1612857919799" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1615535743924">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1615795567885">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615535743924" />
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1615551808832">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615795567885" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1615803874891">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1615551808832" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1615803874891" />
     <state x="366" y="145" key="git4idea.merge.GitPullDialog" timestamp="1613472021944">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="366" y="145" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1613472021944" />
+    <state x="403" y="221" key="git4idea.rebase.GitRebaseDialog" timestamp="1615795561275">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="403" y="221" key="git4idea.rebase.GitRebaseDialog/0.0.1280.680@0.0.1280.680" timestamp="1615795561275" />
   </component>
 </project>
