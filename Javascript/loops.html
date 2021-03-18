@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //for,while,do-while,for..in,for..of
+
+        
+
+        // for(let i =1;i<=100;i++){
+        //     console.log(i)
+        // }
+
+        // let j =1
+        // while(j<=100){
+        //     console.log(j)
+        //     j++;
+        // }
+
+        // do{
+        //     console.log(j)
+        //     j++
+        // }while(j<=100)
+
+        // console.log(j--)
+        // console.log(j)  //
+        // console.log(++j)  //
+
+
+
+
+        let person={
+            personName:"John",
+            city:"Pune",
+            gender:"Male",
+
+            isActive:false
+        }
+
+        
+
+        // item = personName
+        for (let item in person) {
+                console.log(item,person[item])
+        }
+
+        let numbers=[100,300,040,606,00,488]
+
+      for(let k=0;k<numbers.length;k++){
+        console.log(numbers[k])
+      }
+
+      for(let num of numbers){
+
+            console.log(numbers[0])
+      }
+
+
+
+    </script>
+</body>
+</html>
