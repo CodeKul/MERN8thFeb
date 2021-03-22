@@ -7,6 +7,44 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <script>
+        function addition(a,b){   //parameters
+           
+            let c=a+b
+            return c
+           
+        }
+        let result = addition(100,50)  //arguments
+        console.log(result)
+        addition(300,600)
+        //Function Expression
+        var add = function(){
+            console.log("Function Expression")
+        }
+
+        add()
+        console.log(add)
+
+        //Arrow Function
+
+        let addNumbers=()=>{
+            console.log("Arrow function")
+        }
+
+        addNumbers()
+     
+
+
+        let options={
+            isActive:true,
+            display:()=>{
+                console.log(options.isActive)
+            }
+        }
+        options.display()
+
+        
+       
+    </script>
 </body>
 </html>
