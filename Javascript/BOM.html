@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
+
+    <a href="functions.html" target="_blank">Functions</a>
+    <a href="hoisting.html">Hoisting</a>
     <script>
         console.log(window.screen)
         console.log(window.history)
@@ -20,6 +23,44 @@
 
         var output =window.prompt("Enter a value",0)
         console.log(output)
+
+
+    var sheight=screen.height
+    var swidth=screen.width
+    var availW=screen.availWidth
+    var availH=screen.availHeight
+    var color= screen.colorDepth
+    var pixelDepth=screen.pixelDepth
+    document.writeln(sheight)
+    document.writeln(swidth)
+    document.writeln(availW)
+    document.writeln(availH)
+    document.writeln(color)
+    document.writeln(pixelDepth)
+
+
+    //Navigator
+    document.writeln(navigator.appName)
+    document.writeln(navigator.appVersion)
+    document.writeln(navigator.appCodeName)
+    document.writeln(navigator.platform)
+    document.writeln(navigator.language)
+    var java = navigator.javaEnabled
+    document.writeln(java)
+
+    //Location
+    //location.href="https:www.google.com"
+    //document.write(location.href)
+    // location.assign("https:www.google.com")
+    
+    // location.pathname="./functions.html"
+
+    //history
+
+    var len = history.length
+    console.log(len)
+    history.back()
+  
     </script>
 </body>
 </html>
