@@ -19,6 +19,20 @@
         console.log(numbers)
         numbers.unshift(90)
         console.log(numbers)
+
+        //splice(index,noOfElements,newValues)
+        //original array modified
+       var spliced =  numbers.splice(2,0)
+       console.log(spliced)
+       console.log(numbers)
+
+
+       //slice(start,end)
+        //original array not modified
+        var sliced = numbers.slice(2,4)
+        console.log(sliced)
+        console.log(numbers)
+
        
     </script>
 </body>
