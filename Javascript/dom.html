@@ -5,13 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM</title>
+    <style>
+        div>span{
+            background-color: blueviolet;
+        }
+    </style>
 </head>
 <body>
     <h1>Heading</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolorem cumque et voluptatibus molestias mollitia! Assumenda, eos sequi? Fugiat, recusandae?</p>
     <div>
-        <p id="paragraph">Inside Div's p</p>
+        <p id="paragraph" class="two">Inside Div's p</p>
+        <p class="two"></p>
+        <span name="One">Inside span</span>
     </div>
+    <span id="spanTwo">Second Span</span>
+
 
 
     <script>
@@ -20,8 +29,31 @@
         //getElementsByName,getElementsByTagName
         //querySelector,querySelectorAll
         //innerHTML,innerText
+        
+
+
         document.getElementById("paragraph").innerHTML="I am changed"
-       //console.log(returnValue)
+       
+        var output=document.getElementsByClassName("two")
+
+        console.log(output[2])
+
+        var result =document.getElementsByName("One")
+        console.log(result)
+
+        var h1=document.getElementsByTagName("h1")
+        h1[0].innerHTML="CHanged Heading"
+        console.log(h1)
+
+        var x =document.querySelector(".two") //single value
+        console.log(x)
+
+        var y = document.querySelector("div>span").innerText="<b>Selector Span</b>"
+        console.log(y)
+
+        document.getElementById("spanTwo").innerHTML="<b>span Two</b>"
+
+
 
     </script>
 </body>

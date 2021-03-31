@@ -55,6 +55,33 @@
             border:2px solid black;
         }
 
+        p.pseudo::first-letter{
+            font-size:30px;
+            color:chocolate;
+        }
+        p.pseudo::first-line{
+            background-color: black;
+            color:white;
+        }
+
+        p.pseudo::selection{
+            background-color: rebeccapurple;
+            color:black;
+        }
+
+        ul li{
+            list-style: none;
+        }
+        ul li::before{
+            /* content:url("bullet.PNG"); */
+            content:"##"
+        }
+
+        ul li::after{
+            content:"@"
+        }
+        
+        
     </style>
 </head>
 <body>
@@ -94,5 +121,11 @@
 
     </div>
 
+    <!-- Pseudo Elements
+    ::before,::after,::first-line,::first-letter,::selection -->
+
+    <p class="pseudo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, non cumque! Odio nostrum ab est assumenda officiis. Ratione incidunt sint veniam expedita officiis vero laudantium, tempore odit blanditiis minus, reprehenderit, hic necessitatibus dolor. Animi, assumenda! Repellat facilis magni voluptates illum.
+    </p>
 </body>
 </html>
