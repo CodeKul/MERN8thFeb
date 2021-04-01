@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p">Initial Value</p>
+    <button onclick="changeValue()">ChangeP</button>
+    <button onmouseover="displayAlert()">MouseOver</button>
+    <button id="btn">Show</button>
+    <span id="showData"></span>
+    <span id="show"></span>
+
+    <input type="text" onkeydown="displayKey()">
+    <span id="key"></span>
+    <button id="btnClk">Another Button</button>
+    <span id="remove"></span>
+
+    <script>
+        //onclick,ondblclick,onmouseover,onmouseout,onfocus,onload,onblur,
+        //onkeyup,onkeydown,touchstart,touchend
+
+        function displayKey(){
+            document.getElementById("key").innerHTML="Key Pressed"
+        }
+
+        function changeValue(){
+            document.getElementById("p").innerHTML="Changed Value"
+        }
+
+        function displayAlert(){
+            alert("On mouse Over")
+        }
+
+        //adding Listeners
+        //addEventListener(event,function,useCapture)
+        let show = document.getElementById("btn")
+        show.addEventListener('click',()=>{
+            document.getElementById("showData").innerHTML="Show clicked"
+        })
+       
+        let btnClk=document.getElementById("btnClk")
+        btnClk.addEventListener('click',()=>{
+            document.getElementById("remove").innerHTML="BtnClk clicked"
+        })
+       
+
+
+        //
+
+        document.getElementById("btn").addEventListener('click',()=>{
+            document.getElementById("show").innerHTML="Hello World"
+        })
+
+        btnClk.removeEventListener('click',()=>{
+            document.getElementById("remove").innerHTML="Removed"
+        })
+
+        
+
+      
+    
+
+
+
+       
+       
+
+
+
+    </script>
+</body>
+</html>
