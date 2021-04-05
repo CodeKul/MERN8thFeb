@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       let d = document.createElement('div')
+       console.log(d)
+       let p =document.createElement('p')
+       console.log(p)
+        p.innerHTML="Inside P"
+       d.append("Hello World")
+       d.appendChild(p)
+       document.body.append(d)
+       let input=document.createElement('input')
+       input.setAttribute("type","text")
+       var attr = input.getAttribute('type')
+       input.removeAttribute('type')
+       console.log(attr)
+       input.style.marginTop="40px";
+       console.log(input)
+       d.append(input)
+
+
+    </script>
+</body>
+</html>
