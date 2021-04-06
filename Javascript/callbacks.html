@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //a function which is passed as a parameter to another function is callback function
+        //callbackhell
+        
+        // function add(sal,addToSal){
+        //     if(sal>5000){
+        //         addToSal(sal,display)
+        //     }
+
+        // }
+
+        // function addToSal(sal,display){
+        //     sal=sal+5000
+        //     display(sal)
+
+        // }
+        // function display(sal,show){
+          
+        //     console.log("Salary is" + sal)
+        // }
+
+        // // add(10000,addToSal)
+
+        // setTimeout(add,2000,7000,addToSal)
+
+        
+        
+        
+        
+        
+        
+        var sal
+        function show(sal,display){
+            sal=sal+500
+            display(sal,modifySal)
+            console.log("Inside function")
+        }
+        setTimeout(show,2000,10000)
+       function display(sal,modifySal){
+        console.log("Salary" + sal)
+        modifySal(sal)
+       }
+      
+       function modifySal(sal){
+           sal =sal *5
+           console.log(sal)
+       }
+
+       //promises
+       //Promise
+
+
+    </script>
+</body>
+</html>
