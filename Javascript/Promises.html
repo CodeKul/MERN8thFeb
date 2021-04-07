@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Promises
+        // let counter=true
+        let p = new Promise(function(resolve,reject){
+        if(counter){
+            resolve("Done")
+        }else{
+            reject("Try again")
+        }
+        })
+        .then(function(result){
+            console.log(result)
+        })
+        .catch(function(err){
+            console.log(err)
+        })
+
+        
+
+        //Promise Chaining
+        // let p=new Promise(function(resolve,reject){
+
+        // })
+        // .then(function(){
+
+        // })
+        // .then(function(){
+
+        // }).then(function(){
+
+        // }).catch(function(){
+
+        // })
+
+
+        
+
+        
+    </script>
+</body>
+</html>

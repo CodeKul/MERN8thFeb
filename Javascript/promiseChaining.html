@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let sal = new Promise(
+            function(resolve,reject){
+                salary=6000
+                if(salary>0){
+                    resolve(salary)
+                }
+                else{
+                    reject("Rejected")
+                }
+            }
+        ).then(function(salReceived){
+            //salReceived=salReceived+6000
+            salReceived+=6000
+            return salReceived
+        }).then(function(msg){
+            console.log("Updated salary is:"+ msg)
+        })
+        .catch(function(errMsg){
+            console.log(errMsg)
+        })
+    </script>
+</body>
+</html>
