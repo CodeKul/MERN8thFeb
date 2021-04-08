@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let isActive=true
+        var showEmployeeData=new Promise(function(resolve,reject){
+            if(isActive){
+               var employee={
+                   firstName:"ABC",
+                   city:"Pune"
+               }
+                resolve(employee)
+            }else{
+                reject("Inactive employee")
+            }
+        })
+        
+        var showData=function(){
+            showEmployeeData.then(
+                function(employee){
+                    console.log(employee.firstName)
+                }
+            )
+            .catch(
+                function(errMsg){
+                    console.log(errMsg)
+                }
+            )
+        }
+
+        showData()
+
+    </script>
+</body>
+</html>
