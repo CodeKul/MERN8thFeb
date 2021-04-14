@@ -16,28 +16,45 @@ function sendData() {
   let userData = getUserData();
   let p = fetch("https://jsonplaceholder.typicode.com/posts", {
     method: "POST",
+    headers: {
+      "Content-type": "application/json",
+    },
     body: JSON.stringify(userData),
-    headers: { "Content-type": "application/json" },
   });
   p.then(function (response) {
     console.log(response.json());
-  }).catch(function (errMsg) {
-    console.log(errMsg);
+  }).catch(function (err) {
+    console.log(err);
   });
-  console.log(p);
 }
 
 function getData() {
-  let getPromise = fetch("https://jsonplaceholder.typicode.com/posts", {
+  let p = fetch("https://jsonplaceholder.typicode.com/posts", {
     method: "GET",
     headers: { "Content-type": "application/json" },
   });
-  console.log(getPromise);
-
-  getPromise
-    .then(function (response) {
-      let output = response.json();
-      return output;
-    })
-    .then(function (output) {});
+  p.then(function (response) {
+    let result = response.json();
+    return result;
+  }).then(function (result) {
+    let output = `<table id="tb">
+                  <tr>
+                    <th>Id</th>
+                    <th>UserId</th>
+                    <th>title</th>
+                    <th>body</th>
+                  </tr>`;
+    result.map(
+      (item) =>
+        (output += `<tr>
+            <td>${item.id}</td>
+            <td>${item.userId}</td>
+            
+            <td>${item.title}</td>
+            <td>${item.body}</td>
+          </tr>`)
+    );
+    document.getElementById("tblData").innerHTML = output;
+    // document.getElementById("tb").style.border = "1px solid black";
+  });
 }
