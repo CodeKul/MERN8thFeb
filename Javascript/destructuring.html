@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let str= "Hello"
+        let[a,b,c,d,e]=str
+        console.log(a,b,c,d,e)
+
+        let numbers=[10,200,40,30,90,120]
+        // let num1= numbers[0]
+        // console.log(num1)
+
+
+        let [...num]=numbers
+       // console.log(num1,num2)
+        console.log(num)
+
+
+        let user={
+            userId:100,
+            userName:"abc",
+            userCity:"Pune",
+            userJob:{
+                companyName:"xyz",
+                salary:30000
+            }
+        }
+        let{userId,userName,userCity,userJob:{companyName}}=user
+      console.log(user.userJob.companyName)
+
+
+      function expression(num1,num2){
+          return[num1+num2,num1*num2/2]
+      }
+
+      let [one,two] = expression(10,30)
+      console.log(one,two)
+
+        
+
+    </script>
+</body>
+</html>
