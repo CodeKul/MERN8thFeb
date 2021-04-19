@@ -1,0 +1,11 @@
+.viewbtn {
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.viewbtn:hover {
+  cursor: pointer;
+  color: green;
+}

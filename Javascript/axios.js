@@ -28,3 +28,21 @@ function sendData() {
     });
   //console.log(x);
 }
+
+function getData() {
+  let p = axios.get("https://jsonplaceholder.typicode.com/posts", {
+    "Content-type": "application/json",
+  });
+  console.log(p);
+  p.then(function (response) {
+    let result = response.data;
+    return result;
+  }).then(function (result) {
+    let output = `<ul>`;
+    result.map((item, id) => {
+      output += `<li>${item.userId}</li>
+              <li>${item.title}</li>`;
+    });
+    document.getElementById("tblData").innerHTML = output;
+  });
+}
