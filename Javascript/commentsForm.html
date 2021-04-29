@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="postId">Post Id</label>
+        <input type="number" name="postId" id="postId" placeholder="Enter comment id">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="fname" placeholder="Enter name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="mail" placeholder="Enter Email">
+        <label for="comment">Comment</label>
+        <textarea type="text" name="body" id="comment" placeholder="Enter comment"></textarea>
+
+        <input type="button" onclick="sendComment()" value="Send Comment">
+
+    </form>
+    <script src="fetchComments.js"></script>
+</body>
+</html>
