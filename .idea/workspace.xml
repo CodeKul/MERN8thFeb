@@ -35,13 +35,6 @@
       <option name="presentableId" value="Default" />
       <updated>1612853482713</updated>
     </task>
-    <task id="LOCAL-00001" summary="HTML basics,lists,tables">
-      <created>1612853647238</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1612853647238</updated>
-    </task>
     <task id="LOCAL-00002" summary="HTML basics,lists,tables">
       <created>1612858028777</created>
       <option name="number" value="00002" />
@@ -371,13 +364,26 @@
       <option name="project" value="LOCAL" />
       <updated>1619595603408</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="JS API calls">
+      <created>1619682380206</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1619682380206</updated>
+    </task>
+    <task id="LOCAL-00050" summary="JS API calls">
+      <created>1619682462302</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1619682462302</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="javascript" />
     <MESSAGE value="layout-rev" />
     <MESSAGE value="operators" />
     <MESSAGE value="loops" />
@@ -402,29 +408,30 @@
     <MESSAGE value="bootstrap-grid" />
     <MESSAGE value="bootstrapPage" />
     <MESSAGE value="bootatrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootatrap" />
+    <MESSAGE value="JS API calls" />
+    <option name="LAST_COMMIT_MESSAGE" value="JS API calls" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1619682378716">
+    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1619682461678">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1619682378716" />
-    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1619604081858">
+    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1619682461678" />
+    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1619763384983">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1619604081858" />
+    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1619763384983" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1612857919799">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1612857919799" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1619682385176">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1619682468508">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1619682385176" />
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1619590050229">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1619682468508" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1619763369565">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1619590050229" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1619763369565" />
     <state x="366" y="145" key="git4idea.merge.GitPullDialog" timestamp="1613472021944">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

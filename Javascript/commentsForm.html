@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,td,th{
+            border-collapse: collapse;
+            border:1px solid black;
+        }
+    </style>
 </head>
 <body>
     <form>
@@ -17,9 +23,20 @@
         <label for="comment">Comment</label>
         <textarea type="text" name="body" id="comment" placeholder="Enter comment"></textarea>
 
-        <input type="button" onclick="sendComment()" value="Send Comment">
+        <input type="button" onclick="sendComment()" value="Send Comment"><br><br>
+
+        <input type="button" onclick="getComments()" value="Get Comments">
 
     </form>
-    <script src="fetchComments.js"></script>
+    <div id="comments"></div>
+    <!-- <script src="fetchComments.js"></script> -->
+    <script src="axiosComments.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script>
+        let num=10
+        let a =`abc ${num}`   //-->template literals
+        let str = 'abc'+num
+    </script>
 </body>
 </html>
