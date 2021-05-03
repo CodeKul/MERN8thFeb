@@ -22,36 +22,26 @@
     <script>
         //onclick,ondblclick,onmouseover,onmouseout,onfocus,onload,onblur,
         //onkeyup,onkeydown,touchstart,touchend
-
         function displayKey(){
             document.getElementById("key").innerHTML="Key Pressed"
         }
-
         function changeValue(){
             document.getElementById("p").innerHTML="Changed Value"
         }
-
         function displayAlert(){
             alert("On mouse Over")
         }
-
         //adding Listeners
         //addEventListener(event,function,useCapture)
         let show = document.getElementById("btn")
         show.addEventListener('click',()=>{
             document.getElementById("showData").innerHTML="Show clicked"
         })
-       
         let btnClk=document.getElementById("btnClk")
         btnClk.addEventListener('click',()=>{
             document.getElementById("remove").innerHTML="BtnClk clicked"
         })
-       
-
-
-        //
-
-        document.getElementById("btn").addEventListener('click',()=>{
+       document.getElementById("btn").addEventListener('click',()=>{
             document.getElementById("show").innerHTML="Hello World"
         })
 
