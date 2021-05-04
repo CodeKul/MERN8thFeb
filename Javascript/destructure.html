@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       
+       let str ="today"
+       let[one,two,three,four,five]=str
+       console.log(five)
+
+       let numbers=[100,300,500,600]
+       let [x,,,y]=numbers
+       console.log(x+" second number "+y)
+       let [a,...b]=numbers
+       console.log(a,b)
+       let[...c]=numbers
+       console.log(c)
+
+       let product ={
+           productName:"ABC",
+           price:"100",
+           userJob:{
+                companyName:"xyz",
+                salary:30000
+            }
+       }
+
+     let{productName,price,userJob:{companyName,salary}}=product
+     console.log(productName , price,companyName,salary)
+     //console.log(userJob)
+   </script> 
+</body>
+</html>

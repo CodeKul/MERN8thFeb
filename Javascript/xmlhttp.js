@@ -35,3 +35,38 @@ function sendComment() {
     console.log("Network Error.Please try again");
   };
 }
+
+function getComments() {
+  let getRequest = new XMLHttpRequest();
+  getRequest.open("GET", "https://jsonplaceholder.typicode.com/comments");
+  getRequest.setRequestHeader("Content-type", "application/json");
+  getRequest.send();
+  getRequest.onload = function () {
+    if (getRequest.status == 200) {
+      let result = getRequest.response;
+      let finalResult = JSON.parse(result);
+
+      let tblOutput = `<table>
+            <tr>
+              <th>ID</th>
+              <th>Post id</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Body</th>
+            </tr>`;
+      finalResult.map((item) => {
+        tblOutput += `<tr>
+          <td>${item.id}</td>
+          <td>${item.postId}</td>
+          <td>${item.name}</td>
+          <td>${item.email}</td>
+          <td>${item.body}</td>
+        </tr>`;
+      });
+      console.log(tblOutput);
+      document.getElementById("comments").innerHTML = tblOutput;
+    } else {
+      console.log(getRequest.status);
+    }
+  };
+}
