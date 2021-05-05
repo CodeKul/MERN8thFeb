@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover{
+            background-color: crimson;
+            border:2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Modules</h1>
+    <h2 id="msg"></h2>
+    <h4 id="result"></h4>
+    <ul id="season"></ul>
+    <span id="num"></span>
+    <p id="person"></p>
+    
+    <script type="module">
+        import {mayGreeting,addition,seasons,num} from './myModule.js' //named imports
+        import person from './anothemodule.js'
+        let msg = mayGreeting()
+        document.getElementById("msg").innerHTML=msg
+        let result = addition(100,400)
+        document.getElementById("result").innerHTML=`Addition is :${result}`
+        let output=""
+        seasons.map((item)=>{
+            output += `<li>${item}</li>`
+        })
+        document.getElementById('season').innerHTML=output
+        document.getElementById('num').innerHTML=num
+        let details= person(50000,"ABC")
+        document.getElementById("person").innerHTML=details
+    </script>
+</body>
+
+</html>

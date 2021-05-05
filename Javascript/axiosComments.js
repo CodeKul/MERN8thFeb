@@ -25,3 +25,26 @@ function sendComment() {
   });
 }
 
+function getComments() {
+  let result = axios.get("https://jsonplaceholder.typicode.com/comments", {
+    headers: { "Content-type": "application/json" },
+  });
+  console.log(result);
+  result
+    .then(function (res) {
+      let response = res.data;
+      console.log(response);
+      return response;
+    })
+    .then(function (response) {
+      let output = `<ul>`;
+      response.map((item) => {
+        output += `<li>${item.postId}</li>
+        <li>${item.name}</li>
+        <li>${item.email}</li>
+        <li>${item.body}</li>`;
+      });
+      output += `</ul>`;
+      document.getElementById("comments").innerHTML = output;
+    });
+}

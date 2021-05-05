@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+<body>
+    <input type="text" id="todotext">
+    <button onclick="addItem()">Add item</button>
+    
+    <script>
+        function addItem() {
+           let inputItem = document.getElementById("todotext").value
+           console.log(inputItem)
+           var ul = document.createElement('ul')
+           let li = document.createElement('li')
+           //li.setAttribute("class","fa")
+           console.log(li)
+           var remove=document.createElement('button')
+           //let icon = document.getElementById()
+           remove.innerHTML="Delete"
+           remove.addEventListener('click',()=>{
+               li.remove()
+           })
+           li.append(inputItem)
+           li.append(remove)
+           ul.append(li)
+           document.body.append(ul)
+
+           document.getElementById("todotext").value=""
+        }
+    </script>
+</body>
+</html>

@@ -36,13 +36,6 @@
       <option name="presentableId" value="Default" />
       <updated>1612853482713</updated>
     </task>
-    <task id="LOCAL-00004" summary="datalist">
-      <created>1613030168410</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1613030168410</updated>
-    </task>
     <task id="LOCAL-00005" summary="datalist">
       <created>1613030231941</created>
       <option name="number" value="00005" />
@@ -379,13 +372,19 @@
       <option name="project" value="LOCAL" />
       <updated>1620028052372</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="xmlhttp,destructure">
+      <created>1620114015746</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1620114015746</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="layout-rev" />
     <MESSAGE value="operators" />
     <MESSAGE value="loops" />
     <MESSAGE value="functions,hoisting" />
@@ -410,29 +409,30 @@
     <MESSAGE value="bootstrapPage" />
     <MESSAGE value="bootatrap" />
     <MESSAGE value="JS API calls" />
-    <option name="LAST_COMMIT_MESSAGE" value="JS API calls" />
+    <MESSAGE value="xmlhttp,destructure" />
+    <option name="LAST_COMMIT_MESSAGE" value="xmlhttp,destructure" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1620028051348">
+    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1620114014558">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1620028051348" />
-    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1620036359032">
+    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1620114014558" />
+    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1620125151863">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1620036359032" />
+    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1620125151863" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1612857919799">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1612857919799" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1620028057366">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1620114020346">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1620028057366" />
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1620036328774">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1620114020346" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1620125092165">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1620036328774" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1620125092165" />
     <state x="366" y="145" key="git4idea.merge.GitPullDialog" timestamp="1613472021944">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
