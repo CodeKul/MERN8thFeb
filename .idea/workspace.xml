@@ -35,13 +35,6 @@
       <option name="presentableId" value="Default" />
       <updated>1612853482713</updated>
     </task>
-    <task id="LOCAL-00007" summary="layout">
-      <created>1613375728384</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1613375728384</updated>
-    </task>
     <task id="LOCAL-00008" summary="box model">
       <created>1613472014987</created>
       <option name="number" value="00008" />
@@ -378,13 +371,19 @@
       <option name="project" value="LOCAL" />
       <updated>1620718645665</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="react-components">
+      <created>1620804890063</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1620804890063</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="functions,hoisting" />
     <MESSAGE value="restAndSpread, BOM" />
     <MESSAGE value="BOM,array methods" />
     <MESSAGE value="DOM" />
@@ -409,29 +408,30 @@
     <MESSAGE value="xmlhttp,destructure" />
     <MESSAGE value="modules-revision" />
     <MESSAGE value="react-installation,project creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="react-installation,project creation" />
+    <MESSAGE value="react-components" />
+    <option name="LAST_COMMIT_MESSAGE" value="react-components" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1620718644234">
+    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1620804888937">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1620718644234" />
-    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1620727296930">
+    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1620804888937" />
+    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1620813913569">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1620727296930" />
+    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1620813913569" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1612857919799">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1612857919799" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1620718652143">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1620804903142">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1620718652143" />
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1620727242516">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1620804903142" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1620813901122">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1620727242515" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1620813901122" />
     <state x="366" y="145" key="git4idea.merge.GitPullDialog" timestamp="1613472021944">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
