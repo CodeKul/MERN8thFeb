@@ -10,6 +10,27 @@ class Counter extends React.Component {
     // this.incrementCounter = this.incrementCounter.bind(this);
   }
 
+  display = () => {
+    return "Display";
+  };
+
+  componentWillMount() {
+    console.log("Will Mount");
+  }
+
+  componentDidMount() {
+    console.log("Did Mount");
+  }
+
+  shouldComponentUpdate() {
+    console.log("should update");
+    return true;
+  }
+
+  componentDidUpdate() {
+    console.log("Did Update");
+  }
+
   incrementCounter = () => {
     this.setState({ count: this.state.count + 1 });
   };
@@ -25,6 +46,8 @@ class Counter extends React.Component {
         <button onClick={this.incrementCounter}>Increment</button>
         <button onClick={this.decrementCounter}>Decrement</button>
         <CounterChild countValue={this.state.count} />
+
+        <p>{this.display()}</p>
       </div>
     );
   }
