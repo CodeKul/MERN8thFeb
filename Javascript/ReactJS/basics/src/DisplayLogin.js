@@ -9,6 +9,6 @@ function DisplayLogin(props) {
   //     return null;
   //   }
 
-  return <div>{props.isLoggedIn ? <User /> : <Guest />}</div>;
+  return <div>{props.loginValue ? <User /> : <Guest />}</div>;
 }
 export default DisplayLogin;
