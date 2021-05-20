@@ -19,6 +19,13 @@ function CourseDetails() {
       "Have the skills and understanding of Python to confidently apply for Python programming jobs.",
       "Acquire the pre-requisite Python skills to move into specific branches - Machine Learning, Data Science",
     ],
+    syllabus:[
+      {
+      mainTopic:"Introduction",
+      subTopics:["Installation","Variables","Operators"]
+      },
+      
+    ]
   };
   return (
     <div>

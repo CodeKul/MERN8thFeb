@@ -36,13 +36,6 @@
       <option name="presentableId" value="Default" />
       <updated>1612853482713</updated>
     </task>
-    <task id="LOCAL-00012" summary="flex">
-      <created>1614065578071</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1614065578071</updated>
-    </task>
     <task id="LOCAL-00013" summary="grid">
       <created>1614152028743</created>
       <option name="number" value="00013" />
@@ -379,13 +372,19 @@
       <option name="project" value="LOCAL" />
       <updated>1621323414795</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="react-conditional rendering">
+      <created>1621409774371</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1621409774372</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="arraymethods" />
     <MESSAGE value="dom methods" />
     <MESSAGE value="events" />
     <MESSAGE value="capturing,bubbling" />
@@ -410,29 +409,30 @@
     <MESSAGE value="react-prop" />
     <MESSAGE value="react-component lifeccycle" />
     <MESSAGE value="react-component lifecycle,conditional rendering" />
-    <option name="LAST_COMMIT_MESSAGE" value="react-component lifecycle,conditional rendering" />
+    <MESSAGE value="react-conditional rendering" />
+    <option name="LAST_COMMIT_MESSAGE" value="react-conditional rendering" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1621323413124">
+    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1621409773037">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621323413124" />
-    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1621332365832">
+    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621409773037" />
+    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1621418982221">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1621332365832" />
+    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1621418982221" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1612857919799">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1612857919799" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1621323421852">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1621410533522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1621323421852" />
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1621332356593">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1621410533522" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1621418971430">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1621332356593" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1621418971430" />
     <state x="366" y="145" key="git4idea.merge.GitPullDialog" timestamp="1613472021944">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
