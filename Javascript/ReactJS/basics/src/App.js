@@ -3,6 +3,10 @@ import ClassExample from "./ClassExample";
 import FunctionExample from "./FunctionExample";
 import Counter from "./Counter.js";
 import Clock from "./Clock";
+import DisplayLogin from "./DisplayLogin";
+import HandleLogin from "./HandleLogin";
+import CourseDetails from "./CourseDetails";
+import KnowMore from "./KnowMore";
 function App() {
   // let tableTitle = "Products Table"
   let x = 100;
@@ -16,15 +20,23 @@ function App() {
       </p>
     </div>
   );
+  const loginValue = true;
   return (
     <div>
-      <h1>React App</h1>
-      <ClassExample title="Products Table" num={x} />
-      <br />
+      <h1 className="text-center">React App</h1>
+      {/* <ClassExample title="Products Table" num={x} />
+      <br /> */}
       {/* <FunctionExample /> */}
-      {element}
+      {/* {element}
       <Counter />
-      <Clock />
+      <Clock /> */}
+
+      {/* <DisplayLogin loginValue={loginValue} />
+      <HandleLogin />
+
+      <CourseDetails /> */}
+
+      <KnowMore/>
     </div>
   );
 }
