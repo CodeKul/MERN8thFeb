@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6aa12206-6eff-4fce-8cc1-bc49bbdede56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript/ReactJS/basics/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/ReactJS/basics/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,20 +34,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612853482713</updated>
-    </task>
-    <task id="LOCAL-00013" summary="grid">
-      <created>1614152028743</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1614152028743</updated>
-    </task>
-    <task id="LOCAL-00014" summary="htmlbasic-revision">
-      <created>1614239264434</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1614239264434</updated>
     </task>
     <task id="LOCAL-00015" summary="flex,transform">
       <created>1615189874707</created>
@@ -379,7 +364,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621409774372</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="react-conditional rendering">
+      <created>1621496694376</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1621496694376</updated>
+    </task>
+    <task id="LOCAL-00063" summary="react-conditional rendering">
+      <created>1621496736237</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1621496736237</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -413,26 +412,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="react-conditional rendering" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1621496693039">
+    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1621496734997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621496693039" />
-    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1621418982221">
+    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621496734997" />
+    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1621505355872">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1621418982221" />
-    <state x="144" y="0" key="SettingsEditor" timestamp="1612857919799">
+    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1621505355872" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1621496749583">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1612857919799" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1621496703094">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1621496749583" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1621505344158">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1621496703094" />
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1621418971430">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1621418971430" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1621505344158" />
     <state x="366" y="145" key="git4idea.merge.GitPullDialog" timestamp="1613472021944">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
