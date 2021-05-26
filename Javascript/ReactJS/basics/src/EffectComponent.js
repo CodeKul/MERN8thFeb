@@ -1,29 +1,35 @@
 import React, { useEffect, useState } from "react";
 
 function EffectComponent() {
-  const [display, setDisplay] = useState(0);
-  const[nodisplay,setNoDisplay]=useState(0)
-  const[loading,setLoading]=useState(false)
+  const [seeEffect, setEffect] = useState(0);
+  const [userSelect, setSelect] = useState("users");
   useEffect(() => {
-    console.log("render");
-  },[display]);
+    console.log("Inside useEffect");
+    fetch(`https://jsonplaceholder.typicode.com/${userSelect}`).then(
+      (response) => {
+        console.log(response.json());
+      }
+    );
+  },[userSelect]);
+
+  const handleUsers = () => {
+    setSelect("users");
+  };
+
+  const handleAlbums = () => {
+    setSelect("albums");
+  };
+  const increment = () => {
+    setEffect(seeEffect + 1);
+  };
   return (
     <div>
-        {display}
-      <button
-        type="button"
-        onClick={() => setDisplay((display) => display + 1)}
-      >
-        Click Me
-      </button>
-        <br/>
-        {nodisplay}
-      <button
-        type="button"
-        onClick={() => setNoDisplay((nodisplay) => nodisplay + 1)}
-      >
-        Click Me
-      </button>
+      <p>{userSelect}</p>
+      <button onClick={handleUsers}>Get Users</button>
+      <button onClick={handleAlbums}>Get Albums</button>
+
+      <p>{seeEffect}</p>
+      <button onClick={increment}>Increment</button>
     </div>
   );
 }

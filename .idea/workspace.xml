@@ -36,13 +36,6 @@
       <option name="presentableId" value="Default" />
       <updated>1612853482713</updated>
     </task>
-    <task id="LOCAL-00016" summary="animation">
-      <created>1615276951941</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1615276951941</updated>
-    </task>
     <task id="LOCAL-00017" summary="flipcard">
       <created>1615452814456</created>
       <option name="number" value="00017" />
@@ -379,13 +372,19 @@
       <option name="project" value="LOCAL" />
       <updated>1621841485170</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="react-hooks - useEffect">
+      <created>1621928329907</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1621928329908</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="events" />
     <MESSAGE value="capturing,bubbling" />
     <MESSAGE value="closures,createElement" />
     <MESSAGE value="callbacks" />
@@ -410,25 +409,26 @@
     <MESSAGE value="react-component lifecycle,conditional rendering" />
     <MESSAGE value="react-conditional rendering" />
     <MESSAGE value="react-hooks - useState" />
-    <option name="LAST_COMMIT_MESSAGE" value="react-hooks - useState" />
+    <MESSAGE value="react-hooks - useEffect" />
+    <option name="LAST_COMMIT_MESSAGE" value="react-hooks - useEffect" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1621841482737">
+    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1621928328715">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621841482737" />
-    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1621850480506">
+    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1621928328715" />
+    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1621937229037">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1621850480506" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1621841516373">
+    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1621937229037" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1621928336682">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1621841516373" />
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1621850463158">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1621928336682" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1621937205378">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1621850463158" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1621937205378" />
     <state x="366" y="145" key="git4idea.merge.GitPullDialog" timestamp="1613472021944">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

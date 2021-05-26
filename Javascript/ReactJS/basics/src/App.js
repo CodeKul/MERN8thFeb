@@ -7,6 +7,8 @@ import DisplayLogin from "./DisplayLogin";
 import HandleLogin from "./HandleLogin";
 import CourseDetails from "./CourseDetails";
 import KnowMore from "./KnowMore";
+import CounterApp from "./CounterApp";
+import EffectComponent from "./EffectComponent";
 function App() {
   // let tableTitle = "Products Table"
   let x = 100;
@@ -36,7 +38,10 @@ function App() {
 
       <CourseDetails /> */}
 
-      <KnowMore/>
+      {/* <KnowMore/> */}
+
+      {/* <CounterApp/> */}
+     <EffectComponent/>
     </div>
   );
 }
