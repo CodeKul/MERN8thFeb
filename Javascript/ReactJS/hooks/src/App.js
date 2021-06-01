@@ -4,6 +4,7 @@ import CovidCount from './useEffect/CovidCount';
 import RefComponent from './useRef/RefComponent';
 import StopWatch from './useRef/StopWatch';
 import Registration from './Forms/Registration';
+import NewForm from './Forms/NewForm';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <RefComponent/> */}
       {/* <StopWatch/> */}
 
-      <Registration/>
+      {/* <Registration/> */}
+      <NewForm/>
     </div>
   );
 }
