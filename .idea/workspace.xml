@@ -2,6 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6aa12206-6eff-4fce-8cc1-bc49bbdede56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/src/components/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/src/components/Blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/src/components/Contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/src/components/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/ReactJS/routing/src/setupTests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612853482713</updated>
-    </task>
-    <task id="LOCAL-00025" summary="restAndSpread, BOM">
-      <created>1616500231441</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1616500231441</updated>
     </task>
     <task id="LOCAL-00026" summary="BOM,array methods">
       <created>1616667132454</created>
@@ -378,13 +393,19 @@
       <option name="project" value="LOCAL" />
       <updated>1622619923117</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="react-router">
+      <created>1622705635249</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1622705635253</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="promise,async-await,form" />
     <MESSAGE value="xmlHttpRequest" />
     <MESSAGE value="fetch,template literals" />
     <MESSAGE value="fetch-get" />
@@ -409,13 +430,14 @@
     <MESSAGE value="react-hooks -useRef" />
     <MESSAGE value="react-forms" />
     <MESSAGE value="react-styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="react-styling" />
+    <MESSAGE value="react-router" />
+    <option name="LAST_COMMIT_MESSAGE" value="react-router" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1622619920787">
+    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1622705632422">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1622619920787" />
+    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1622705632422" />
     <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1622628198158">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -424,10 +446,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1622619933186" />
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1622628189391">
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1622705823409">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1622628189391" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1622705823409" />
     <state x="403" y="221" key="git4idea.rebase.GitRebaseDialog" timestamp="1615795561275">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
