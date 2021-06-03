@@ -35,13 +35,6 @@
       <option name="presentableId" value="Default" />
       <updated>1612853482713</updated>
     </task>
-    <task id="LOCAL-00024" summary="functions,hoisting">
-      <created>1616411791455</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1616411791455</updated>
-    </task>
     <task id="LOCAL-00025" summary="restAndSpread, BOM">
       <created>1616500231441</created>
       <option name="number" value="00025" />
@@ -378,13 +371,19 @@
       <option name="project" value="LOCAL" />
       <updated>1622533373198</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="react-styling">
+      <created>1622619923116</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1622619923117</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="promises" />
     <MESSAGE value="promise,async-await,form" />
     <MESSAGE value="xmlHttpRequest" />
     <MESSAGE value="fetch,template literals" />
@@ -409,25 +408,26 @@
     <MESSAGE value="react-hooks - useEffect,useRef" />
     <MESSAGE value="react-hooks -useRef" />
     <MESSAGE value="react-forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="react-forms" />
+    <MESSAGE value="react-styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="react-styling" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1622533372270">
+    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1622619920787">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1622533372270" />
-    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1622541727650">
+    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1622619920787" />
+    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1622628198158">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1622541727650" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1622533381778">
+    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1622628198158" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1622619933186">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1622533381778" />
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1622541717097">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1622619933186" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1622628189391">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1622541717097" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1622628189391" />
     <state x="403" y="221" key="git4idea.rebase.GitRebaseDialog" timestamp="1615795561275">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
