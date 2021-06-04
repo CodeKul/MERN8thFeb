@@ -1,12 +1,22 @@
-import React from 'react'
-
+import React from "react";
+import { Link, Route } from "react-router-dom";
+import FrontEnd from "./Blogs/FrontEnd";
 function Blog() {
-    return (
-        <div>
-           <h1>Blog Component</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor deserunt neque officia quae cum earum dolorem dolore reprehenderit distinctio nisi corporis magnam beatae ex hic eveniet est, iure facilis voluptate excepturi fugiat assumenda tempora voluptas? Corporis odit nobis aspernatur voluptates!</p> 
-        </div>
-    )
+  return (
+    <div>
+      <h1>Blogs</h1>
+      <ul>
+        <li>
+          <Link to="/blog/frontend">FrontEnd</Link>
+        </li>
+        <li>
+          <Link to="/blog/backend">BackEnd</Link>
+        </li>
+      </ul>
+
+      <Route path="/blog/frontend" component={FrontEnd} />
+    </div>
+  );
 }
 
-export default Blog
+export default Blog;

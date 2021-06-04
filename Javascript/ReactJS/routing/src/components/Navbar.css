@@ -1,0 +1,33 @@
+.navbar ul {
+  list-style: none;
+  display: flex;
+  height: 42px;
+  align-items: center;
+  background-color: black;
+  
+}
+
+.navbar ul li {
+  margin-right: 30px;
+  
+}
+
+.navbar ul li .nav-link {
+  text-decoration: none;
+  color:white;
+  font-size:18px;
+}
+
+.navbar ul li:hover{
+    transform: translate(5px);
+    transition:0.5ms;
+}
+
+.navbar ul li .nav-link:hover{
+   color:green;
+}
+
+.active{
+    background-color: olive;
+    color:white;
+}

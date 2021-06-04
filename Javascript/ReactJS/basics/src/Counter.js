@@ -1,6 +1,5 @@
 import React from "react";
 import CounterChild from "./CounterChild";
-
 class Counter extends React.Component {
   constructor() {
     super();
@@ -9,11 +8,10 @@ class Counter extends React.Component {
     };
     // this.incrementCounter = this.incrementCounter.bind(this);
   }
-
   display = () => {
     return "Display";
   };
-
+  
   componentWillMount() {
     console.log("Will Mount");
   }
