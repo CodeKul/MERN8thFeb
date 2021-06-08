@@ -25,6 +25,11 @@ function Navbar() {
             Blog
           </NavLink>
         </li>
+        <li>
+          <NavLink to="/articles" className="nav-link">
+            Topics
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );

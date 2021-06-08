@@ -1,7 +1,9 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
+import { Link, Route, useRouteMatch } from "react-router-dom";
 import FrontEnd from "./Blogs/FrontEnd";
 function Blog() {
+  const result = useRouteMatch()  //path,url
+  console.log(result)
   return (
     <div>
       <h1>Blogs</h1>
