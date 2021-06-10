@@ -11,7 +11,7 @@ function Navbar() {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/category" className="nav-link">
+          <NavLink to="/cat" className="nav-link">
             Category
           </NavLink>
         </li>

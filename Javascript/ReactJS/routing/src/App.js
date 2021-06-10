@@ -13,39 +13,36 @@ import Navbar from './productRouting/Navbar'
 function App() {
   return (
     <div>
-      {/* <BrowserRouter>
-        <Navbar/>
+      <BrowserRouter>
+        <Navbar />
         <Switch>
-          <Route exact path="/">
+          <Route path="/" exact component={Home} />
+          <Route path="/cat">
+            <Category />
+          </Route>
+          <Route path="/category">
             <Home />
           </Route>
-
-          {/* <Route path="/" component={Home}/> 
-          <Route path="/about" component={About} />
-          <Route path="/about" component={Blog} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/blog" component={Blog} />
-          <Route path="/articles" component={Topics}/>
+          <Route path="/products">
+            <Products />
+          </Route>
         </Switch>
-      </BrowserRouter> */}
-
-      <BrowserRouter>
-      <Navbar/>
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/category">
-          <Category />
-        </Route>
-        <Route path="/category">
-          <Home />
-        </Route>
-        <Route path="/products">
-          <Products />
-        </Route>
-      </Switch>
       </BrowserRouter>
     </div>
   );
 }
+
+// <BrowserRouter>
+//   <Navbar/>
+//   <Switch>
+//     <Route exact path="/">
+//       <Home />
+//     </Route>
+//     <Route path="/about" component={About}/>
+//     <Route path="/contact" component={Contact}/>
+//     <Route path="/blog" component={Blog}/>
+//     <Route path="/topics" component={Topics}/>
+//   </Switch>
+// </BrowserRouter>
 
 export default App;

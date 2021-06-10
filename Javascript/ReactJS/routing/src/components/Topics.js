@@ -3,7 +3,7 @@ import { Link, useRouteMatch, Route } from "react-router-dom";
 import TopicBlog from "./TopicBlog";
 function Topics() {
   const { path, url } = useRouteMatch();
-    console.log(path,url)
+  console.log(path, url);
   let topics = [
     {
       name: "React JS",
@@ -38,7 +38,7 @@ function Topics() {
       ))}
 
       <Route path={`${path}/:topicid`}>
-          <TopicBlog topicList={topics}/>
+        <TopicBlog topicList={topics} />
       </Route>
     </div>
   );
