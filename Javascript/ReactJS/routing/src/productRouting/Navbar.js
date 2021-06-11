@@ -20,6 +20,11 @@ function Navbar() {
             Products
           </NavLink>
         </li>
+        <li>
+          <NavLink to="/gamepage" className="nav-link">
+            Game
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );

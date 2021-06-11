@@ -24,7 +24,6 @@ function CourseDetails() {
       mainTopic:"Introduction",
       subTopics:["Installation","Variables","Operators"]
       },
-      
     ]
   };
   return (
@@ -42,7 +41,6 @@ function CourseDetails() {
           ))}
         </ul>
       )}
-
       <ul>
         {courseData.takeAways.map((item)=>(
             <li>{item}</li>

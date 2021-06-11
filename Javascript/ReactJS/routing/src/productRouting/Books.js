@@ -3,7 +3,7 @@ import { Link, Route, useRouteMatch } from "react-router-dom";
 import BookReview from "./BookReview";
 function Books() {
   const { path, url } = useRouteMatch();
-  
+
   let bookReview = [
     {
       id: 1,
@@ -28,7 +28,6 @@ function Books() {
     <div>
       <h1>Books</h1>
       <ul>
-        
         {bookReview.map((book) => (
           <li>
             <Link to={`${url}/${book.id}`}>{book.bookName}</Link>
@@ -37,7 +36,7 @@ function Books() {
       </ul>
 
       <Route path={`${path}/:bookid`}>
-        <BookReview bookInfo={bookReview}/>
+        <BookReview bookInfo={bookReview} />
       </Route>
     </div>
   );

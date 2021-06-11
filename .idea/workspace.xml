@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6aa12206-6eff-4fce-8cc1-bc49bbdede56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javascript/ReactJS/basics/src/CourseDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/ReactJS/basics/src/CourseDetails.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +35,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612853482713</updated>
-    </task>
-    <task id="LOCAL-00030" summary="events">
-      <created>1617271837726</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1617271837726</updated>
     </task>
     <task id="LOCAL-00031" summary="capturing,bubbling">
       <created>1617349371484</created>
@@ -378,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623224239908</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="react-router">
+      <created>1623311747836</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1623311747836</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -412,22 +413,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="react-router" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1623224237768">
+    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1623311746267">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1623224237768" />
-    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1623233142178">
+    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1623311746267" />
+    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1623320168692">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1623233142178" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1623224256205">
+    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1623320168692" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1623311758732">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1623224256205" />
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1623233130768">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1623311758732" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1623320158913">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1623233130768" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1623320158913" />
     <state x="403" y="221" key="git4idea.rebase.GitRebaseDialog" timestamp="1615795561275">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
