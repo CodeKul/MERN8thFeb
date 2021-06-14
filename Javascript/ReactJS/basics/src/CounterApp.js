@@ -3,7 +3,8 @@ import { useState } from "react";
 function CounterApp() {
   const [count, setCount] = useState(0);
 
-  //   useState returns an array of 2 elements - 1) initial value 2) function
+  //useState returns an array of 2 elements - 
+  //1) initial value 2) function
   const incrementCounter = () => {
     console.log("inside inc counter");
   

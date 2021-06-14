@@ -9,7 +9,8 @@ import InlineStyle from "./Styling/InlineStyle";
 import StyledComponent from "./Styling/StyledComponent";
 import ExternalCSS from "./Styling/ExternalCSS";
 import ExternalCSS2 from "./Styling/ExternalCSS2";
-
+import NewBook from "./useContext/NewBook";
+import { BooksContext, BookProvider } from "./useContext/BooksContext";
 function App() {
   return (
     <div>
@@ -22,9 +23,13 @@ function App() {
 
       {/* <InlineStyle/> */}
 
-      <StyledComponent />
+      {/* <StyledComponent />
       <ExternalCSS />
-      <ExternalCSS2 />
+      <ExternalCSS2 /> */}
+      <BookProvider>
+        <NewBook />
+        
+      </BookProvider>
     </div>
   );
 }

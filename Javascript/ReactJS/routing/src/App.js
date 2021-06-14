@@ -10,6 +10,8 @@ import Home from "./productRouting/Home";
 import Category from "./productRouting/Category";
 import Products from "./productRouting/Products";
 import Navbar from './productRouting/Navbar'
+import Game from './productRouting/Game'
+import Winner from "./productRouting/Winner";
 function App() {
   return (
     <div>
@@ -25,6 +27,12 @@ function App() {
           </Route>
           <Route path="/products">
             <Products />
+          </Route>
+          <Route path="/gamepage">
+              <Game/>
+          </Route>
+          <Route path="/winner">
+            <Winner/>
           </Route>
         </Switch>
       </BrowserRouter>
