@@ -11,6 +11,18 @@ import ExternalCSS from "./Styling/ExternalCSS";
 import ExternalCSS2 from "./Styling/ExternalCSS2";
 import NewBook from "./useContext/NewBook";
 import { BooksContext, BookProvider } from "./useContext/BooksContext";
+import MyContext from "./useContext/MyContext";
+import Child from "./useContext/Child";
+import Sibling from "./useContext/Sibling";
+import BooksList from "./useContext/BooksContext/BooksList";
+import Navbar from "./useContext/BooksContext/Navbar";
+const data = {
+  x: 10,
+  textValue: "ABC",
+  fun: () => {
+    alert("Hello");
+  },
+};
 function App() {
   return (
     <div>
@@ -22,13 +34,17 @@ function App() {
       {/* <NewForm/> */}
 
       {/* <InlineStyle/> */}
-
       {/* <StyledComponent />
       <ExternalCSS />
       <ExternalCSS2 /> */}
+
+      {/* <MyContext.Provider value={data}>
+        <Child />
+        <Sibling />
+      </MyContext.Provider> */}
       <BookProvider>
-        <NewBook />
-        
+        <Navbar />
+        <BooksList />
       </BookProvider>
     </div>
   );
