@@ -9,13 +9,17 @@ import InlineStyle from "./Styling/InlineStyle";
 import StyledComponent from "./Styling/StyledComponent";
 import ExternalCSS from "./Styling/ExternalCSS";
 import ExternalCSS2 from "./Styling/ExternalCSS2";
-import NewBook from "./useContext/NewBook";
-import { BooksContext, BookProvider } from "./useContext/BooksContext";
+
 import MyContext from "./useContext/MyContext";
 import Child from "./useContext/Child";
 import Sibling from "./useContext/Sibling";
 import BooksList from "./useContext/BooksContext/BooksList";
 import Navbar from "./useContext/BooksContext/Navbar";
+import AddBook from "./useContext/BooksContext/AddBook";
+import {
+  BooksProvider,
+  bookContext,
+} from "./useContext/BooksContext/BookContext";
 const data = {
   x: 10,
   textValue: "ABC",
@@ -42,10 +46,11 @@ function App() {
         <Child />
         <Sibling />
       </MyContext.Provider> */}
-      <BookProvider>
+      <BooksProvider>
         <Navbar />
+        <AddBook />
         <BooksList />
-      </BookProvider>
+      </BooksProvider>
     </div>
   );
 }

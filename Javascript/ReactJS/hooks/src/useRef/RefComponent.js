@@ -1,23 +1,17 @@
 import React, { useEffect, useRef } from "react";
-
 function RefComponent() {
   const refVar = useRef(0); //returns a object {current:0}
   useEffect(() => {
     console.log("Render");
   });
-
   const handleClick = () => {
     refVar.current.focus();
     refVar.current.style.backgroundColor = "lightblue";
   };
-
-  
-
   return (
     <div>
       <input type="text" ref={refVar} />
       <button onClick={handleClick}>Focus Input</button>
-      
     </div>
   );
 }
