@@ -20,6 +20,7 @@ function NewForm() {
     });
   };
 
+  
   return (
     <div>
       <h1>React Form Example</h1>
