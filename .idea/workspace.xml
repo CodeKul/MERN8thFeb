@@ -35,13 +35,6 @@
       <option name="presentableId" value="Default" />
       <updated>1612853482713</updated>
     </task>
-    <task id="LOCAL-00040" summary="axios -post">
-      <created>1618472405986</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1618472405986</updated>
-    </task>
     <task id="LOCAL-00041" summary="modules,classes">
       <created>1618559342236</created>
       <option name="number" value="00041" />
@@ -378,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624261167058</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="useReducer">
+      <created>1624520257239</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1624520257239</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -412,25 +412,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="useReducer" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1624261165018">
+    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1624520255481">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1624261165018" />
-    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1624267998919">
+    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1624520255481" />
+    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1624529069484">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1624267998919" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1624261173899">
+    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1624529069484" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1624520277523">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1624261173899" />
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1624267986255">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1624520277523" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1624528982239">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1624267986255" />
-    <state x="403" y="221" key="git4idea.rebase.GitRebaseDialog" timestamp="1615795561275">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="403" y="221" key="git4idea.rebase.GitRebaseDialog/0.0.1280.680@0.0.1280.680" timestamp="1615795561275" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1624528982239" />
   </component>
 </project>
