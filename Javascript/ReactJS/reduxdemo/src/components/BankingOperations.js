@@ -16,7 +16,7 @@ function BankingOperations() {
   const handleDelete = () => {
     dispatch({ type: "delete" });
   };
-  const handleAcctChange = () => {};
+  
   return (
     <div>
       <input
@@ -28,7 +28,7 @@ function BankingOperations() {
       <button onClick={handleWithdraw}>Withdraw</button>
       <button onClick={handleInterest}>Interest</button>
       <button onClick={handleDelete}>Delete Account</button>
-      <button onClick={handleAcctChange}>Change Account Type</button>
+      {/* <button onClick={handleAcctChange}>Change Account Type</button> */}
     </div>
   );
 }

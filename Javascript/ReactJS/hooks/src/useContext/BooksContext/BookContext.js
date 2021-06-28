@@ -13,6 +13,8 @@ export function BooksProvider(props) {
     },
   ]);
   return (
-    <bookContext.Provider value={[books,setBooks]}>{props.children}</bookContext.Provider>
+    <bookContext.Provider value={[books, setBooks]}>
+      {props.children}
+    </bookContext.Provider>
   );
 }

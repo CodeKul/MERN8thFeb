@@ -4,9 +4,10 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createStore } from "redux";
-import { bankingReducer } from "./reducers/bankingReducer";
+
 import { Provider } from "react-redux";
-const store = createStore(bankingReducer);
+import { rootReducer } from "./reducers/combineReducer";
+const store = createStore(rootReducer);
 ReactDOM.render(
   <Provider store={store}>
     <App />
