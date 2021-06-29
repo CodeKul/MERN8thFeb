@@ -9,7 +9,7 @@ import InlineStyle from "./Styling/InlineStyle";
 import StyledComponent from "./Styling/StyledComponent";
 import ExternalCSS from "./Styling/ExternalCSS";
 import ExternalCSS2 from "./Styling/ExternalCSS2";
-
+import Table from "./ReactFragment/Table";
 import MyContext from "./useContext/MyContext";
 import Child from "./useContext/Child";
 import Sibling from "./useContext/Sibling";
@@ -46,11 +46,13 @@ function App() {
         <Child />
         <Sibling />
       </MyContext.Provider> */}
-      <BooksProvider>
+      {/* <BooksProvider>
         <Navbar />
         <AddBook />
         <BooksList />
-      </BooksProvider>
+      </BooksProvider> */}
+
+      <Table/>
     </div>
   );
 }
