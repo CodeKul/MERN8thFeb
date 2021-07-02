@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6aa12206-6eff-4fce-8cc1-bc49bbdede56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript/ReactJS/portfolio/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/ReactJS/portfolio/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript/ReactJS/portfolio/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/ReactJS/portfolio/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript/ReactJS/portfolio/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/ReactJS/portfolio/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript/ReactJS/portfolio/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/ReactJS/portfolio/src/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="6aa12206-6eff-4fce-8cc1-bc49bbdede56" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,13 +32,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612853482713</updated>
-    </task>
-    <task id="LOCAL-00047" summary="bootstrapPage">
-      <created>1619509244773</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1619509244773</updated>
     </task>
     <task id="LOCAL-00048" summary="bootatrap">
       <created>1619595603408</created>
@@ -382,13 +369,19 @@
       <option name="project" value="LOCAL" />
       <updated>1625211852030</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="portfolio,landing page">
+      <created>1625215009086</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1625215009086</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="bootstrap" />
     <MESSAGE value="bootstrap-grid" />
     <MESSAGE value="bootstrapPage" />
     <MESSAGE value="bootatrap" />
@@ -413,21 +406,22 @@
     <MESSAGE value="useReducer" />
     <MESSAGE value="redux" />
     <MESSAGE value="ReactFragment, ApiCalls" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReactFragment, ApiCalls" />
+    <MESSAGE value="portfolio,landing page" />
+    <option name="LAST_COMMIT_MESSAGE" value="portfolio,landing page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1625211850263">
+    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1625215006581">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1625211850263" />
+    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1625215006581" />
     <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1624959590855">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1624959590855" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1625214959771">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1625215025431">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1625214959771" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1625215025431" />
     <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1624959577022">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
